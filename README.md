@@ -16,7 +16,6 @@ Dim GreatestTotal As Double
 Dim TickerIncrease As String
 Dim TickerDecrease As String
 Dim TickerTotal As String
-
 For Each ws In ThisWorkbook.Worksheets
     ws.Activate
     ChartRow = 2
